@@ -1,0 +1,297 @@
+.header-map {
+    width: 1280px;
+    height: 36px;
+    left: 80px;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Nav-header {
+    width: 376px;
+    height: 20px;
+    right: 80px;
+    top: 81px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 28px;
+
+}
+.header-img {
+    width: 150px;
+    height: 50px;
+    left: 48px;
+    top: 2px
+}
+
+a {
+    width: 82px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 100%;
+    color: #555555;
+    flex: none;
+}
+
+a:last-child {
+    color: #ff3998;
+}
+
+.purple{
+    width: 1120;
+    height: 519;
+    left: 80px;
+    top: 288px;
+    display: flex;
+    flex-direction: row;
+}
+
+.purple-tex {
+    width: 620px;
+    height: 483;
+    margin: 100px;
+    left: 80px;
+    right: 200px;
+    top: 500px;
+
+}
+.purple-monster {
+    border: 200px;
+    width: 354px;
+    height: 519px;
+    left: 846px;
+    top: 288px;
+}
+
+h1 {
+    color: #ff3998;
+    font-size: 16px;
+}
+
+h2 {
+    color: #111111;
+    font-size: 96px;
+    
+}
+
+p {
+    color: #555555;
+    font-size: 20px;
+}
+button {
+    border-radius: 40px;
+  border: solid 5px transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #FF3998, #FF3939, #FF8139, #39FFA0);
+  background-color: white;
+  padding: 20px 50px;
+  font-weight: 600;
+  font-size: 20px;
+    
+}
+
+
+.Free{
+    width: 1280px;
+    height: 320px;
+    left: 80px;
+    right: 80px;
+    top: 989px;
+    background-image: linear-gradient(to right, red , yellow, green);
+    border-radius: 16px;
+    
+}
+h3 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Icon {
+    width: 1280px;
+    height: 49px;
+    left: 80px;
+    top: 1429px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Icon-name {
+    width: 150px;
+    height: 80px;
+}
+
+@media screen and (max-width: 576px) {
+    .Icon {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+.super-rare {
+    width: 1280px;
+    height: 400px;
+    left: 80px;
+    top: 1598px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h4 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #111111;
+}
+
+
+.purple-man, .yellow-woman, .orange-man, .green-woman {
+    width: 200px;
+    height: 300px;
+    left: 80px;
+    top: 1759px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #cfc9c9;
+    border-radius: 5%;
+}
+
+.gloop-series{
+    width: 109px;
+    height: 74px;
+    left: 24px;
+    top: 302px;
+}
+
+.top-bid {
+    width: 110px;
+    height: 74px;
+    left: 157px;
+    top: 302px;
+}
+
+.orange {
+    color: orange;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.Name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #111111;
+}
+.Prace {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #111111;
+}
+
+.number, .data{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #777777;
+}
+.photo-img {
+    width: 200px;
+    height: 150px;
+    border-radius:  10% 10% 0  0 ;
+}
+
+.green {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.photo-monster {
+    width: 300px;
+    height: 400px;
+}
+
+footer {
+    background-color: white;
+}
+
+.footer-info {
+    display: flex;
+    background-color: white;
+
+}
+.footer-info > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  p.bold {
+    font-weight: bold;
+  }
+  .logo {
+    width: 250px;
+    height: 50px;
+  }
+  .logo-img {
+    width: 200px;
+    height: 50px;
+  }
+  .footer-back {
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 5vw;
+    font-family: $primary-font;
+    color: $color-light-grey;
+    font-size: 20px;
+
+    .footer {
+        display: none;
+    }
+  }
+  .footer-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 800px;
+  }
+  .footer-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .info{
+    width: 800px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: 769px) {
+    .info {
+      display: inline;
+    }
+}
+
+  
+  
+ 
+  
