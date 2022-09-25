@@ -49,7 +49,6 @@ a:last-child {
     align-items: center;
     padding: 0px;
     gap: 28px;
-
 }
 .header-img {
     width: 150px;
@@ -57,7 +56,6 @@ a:last-child {
     left: 48px;
     top: 2px
 }
-
 a {
     width: 82px;
     height: 20px;
@@ -66,11 +64,9 @@ a {
     color: #555555;
     flex: none;
 }
-
 a:last-child {
     color: #ff3998;
 }
-
 .purple, .green{
     width: 1120;
     height: 519;
@@ -79,7 +75,6 @@ a:last-child {
     display: flex;
     flex-direction: row;
 }
-
 .purple-tex, .green-text {
     width: 620px;
     height: 400;
@@ -87,7 +82,6 @@ a:last-child {
     left: 80px;
     right: 200px;
     top: 500px;
-
 }
 .purple-monster, .green-icon {
     border: 200px;
@@ -95,29 +89,23 @@ a:last-child {
     height: 358px;
     margin: 0 50px 50px 150px;
 }
-
 .photo-monster {
     width: 400px;
     height: 500px;
 }
-
 h1 {
     color: #ff3998;
     font-size: 16px;
 }
-
 h2 {
     color: #111111;
     font-size: 96px;
-    
 }
-
 h6 {
     color: #111111;
     font-size: 50px;
     margin: 10 0 10 0;
 }
-
 p {
     color: #555555;
     font-size: 20px;
@@ -134,7 +122,6 @@ button {
   font-weight: 600;
   font-size: 20px;  
 }
-
 .Free{
     width: 1280px;
     height: 320px;
@@ -144,12 +131,10 @@ button {
     background-image: linear-gradient(to right, red , yellow, green);
     border-radius: 16px;  
 }
-
 h3 {
     font-size: 40px;
     margin: 0;
 }
-
 .Icon {
     width: 1280px;
     height: 49px;
@@ -161,12 +146,10 @@ h3 {
     gap: 20px;
     padding: 5vh 0;
 }
-
 .Icon-name {
     width: 150px;
     height: 80px;
 }
-
 @media screen and (max-width: 769px) {
     .Icon {
         display: flex;
@@ -175,7 +158,6 @@ h3 {
         justify-content: space-between;
     }
 }
-
 .super-rare {
     width: 1280px;
     height: 400px;
@@ -191,8 +173,6 @@ h4 {
     line-height: 48px;
     color: #111111;
 }
-
-
 .purple-man, .yellow-woman, .orange-man, .green-woman {
     width: 200px;
     height: 300px;
@@ -205,28 +185,24 @@ h4 {
     background-color: #cfc9c9;
     border-radius: 5%;
 }
-
 .gloop-series{
     width: 109px;
     height: 74px;
     left: 24px;
     top: 302px;
 }
-
 .top-bid {
     width: 110px;
     height: 74px;
     left: 157px;
     top: 302px;
 }
-
 .orange {
     color: orange;
     font-weight: 500;
     font-size: 12px;
     line-height: 100%;
 }
-
 .Name {
     font-weight: 500;
     font-size: 20px;
@@ -239,7 +215,6 @@ h4 {
     line-height: 100%;
     color: #111111;
 }
-
 .number, .data{
     font-weight: 400;
     font-size: 18px;
@@ -251,18 +226,15 @@ h4 {
     height: 150px;
     border-radius:  10% 10% 0  0 ;
 }
-
 .green {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 .photo-monster {
     width: 350px;
     height: 500px;
   }
-
 .divider-bottom {
     display: inline;
     margin-top: 0px;
@@ -333,7 +305,6 @@ h4 {
   footer .right-footer {
     display: none;
   }
-  
   @media screen and (min-width: 769px) {
     footer .right-footer {
       display: inline;
